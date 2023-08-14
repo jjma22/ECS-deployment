@@ -9,6 +9,11 @@ variable "vpc_id" {
 
 }
 
+variable "execution_role" {
+  type = string
+  defuult = ""  
+}
+
 
 
 variable "public_subnets" {

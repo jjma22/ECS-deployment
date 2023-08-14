@@ -1,6 +1,7 @@
 # Notes Application Deployments
 This repositroy features a simple notes app and two methods of deployment for dev and production.
 * Adjustments for taskdef.json still need to be added.
+* Need to test using var.execution-role in cluster creation
 ## App
 The app is a simple notes app made using Flask. Users first must create an account. Once their account is created and they have logged on, they can create and delete different notes in their account.
  ## Dev
