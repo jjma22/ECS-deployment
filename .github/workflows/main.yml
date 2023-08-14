@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  AWS_REGION: eu-west-2     gi
+  AWS_REGION: eu-west-2
   ECR_REPOSITORY: notes-deployment        
   ECS_SERVICE: worker           
   ECS_CLUSTER: ecs-cluster           
