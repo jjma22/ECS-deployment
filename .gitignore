@@ -1,0 +1,4 @@
+.terraform
+notes.txt
+grafana-enterprise_10.0.3_amd64.deb
+*.tfstate.backup
