@@ -28,7 +28,7 @@ Instructions for use of the production evnironemnt:
 
 * In ***/website-code/website/__init.py__***, change the database endpoint on line 13 after the ***@***, keeping the port and dbname, to the rds-endpoint output.
 
-i.e 'postgresql://postgres:AWSdatabase123@**terraform-20230802144309668000000001.cr3ferbojjxx.eu-west-2.rds.amazonaws.com**:5432/mydb'
+i.e 'postgresql://postgres:AWSdatabase123@**terra123......amazon.com**:5432/mydb'
 
 * In ***/wesbite-code/*** run ***docker build -t nodes-deployment***
 * Run ***docker image ls*** to find the image id
